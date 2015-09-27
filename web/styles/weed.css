@@ -50,9 +50,12 @@ ul{
 .date{
     float: right;
 }
+#notreal{
+    color: red;
+}
 @media only screen and (max-width: 500px) {
     body{
-        width: 50%;
+        width: 100%;
     }
     .date{
         clear: right;
