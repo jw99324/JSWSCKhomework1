@@ -49,18 +49,29 @@ ul{
 }
 .date{
     float: right;
+    text-align: right;
 }
 #notreal{
     color: red;
 }
+span{
+    display: inline;
+}
 @media only screen and (max-width: 500px) {
     body{
-        width: 100%;
+        width: 95%;
     }
     .date{
-        clear: right;
-        display: inline;
-        text-align: left;
-        
+        clear: both;
+        display: block;
+        float: left;
+    }
+    .des,
+    .title{
+        display: block;
+    }
+    span{
+        display: block;
+        clear: both;
     }
 }
